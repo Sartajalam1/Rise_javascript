@@ -14,7 +14,7 @@ let state = "bihar"
 // string => " " 
 // boolean => true/false 
 //  null => standalone value 
-// symbol => unique
+// symbol => unique 
 
 // object
 

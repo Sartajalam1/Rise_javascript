@@ -34,4 +34,35 @@ const myFunction = function(){
 console.log("Hello world");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+// ***********************************************************************
+
+// stack (primitive) , Heap(Non-primitive)
+
+let myFacebookId = "manjuUday";
+
+let anotherFacebookId = myFacebookId;
+
+anotherFacebookId = "Mr.Parker"
+
+console.log(myFacebookId);
+
+console.log(anotherFacebookId);
+
+let userOne = {
+    email: "sartaj@google",
+    upi:"user@ybl"
+}
+
+// let userTwo = userOne
+
+let userTwo = "sas@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
