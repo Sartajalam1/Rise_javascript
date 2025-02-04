@@ -57,7 +57,7 @@ let userOne = {
 
 // let userTwo = userOne
 
-let userTwo = "sas@gmail.com"
+// let userTwo = "sas@gmail.com"
 
 console.log(userOne);
 console.log(userTwo);
