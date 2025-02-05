@@ -9,11 +9,11 @@ let isloggedIn = false
 let state = "bihar"
 
 // Datatypes
-//  number => 2 to power 53
+// number => 2 to power 53
 // BigInt
 // string => " " 
 // boolean => true/false 
-//  null => standalone value 
+// null => standalone value 
 // symbol => unique 
 
 // object

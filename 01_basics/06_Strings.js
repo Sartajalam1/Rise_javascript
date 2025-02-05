@@ -3,7 +3,7 @@ const countRepo = 20;
 
 // console.log(name + countRepo + "Alam"); // oolder model
 
-// console.log(`my name ${name} my github repo count ${countRepo}`); // write modern Way for string
+// console.log(`my name ${name} my github repo count ${countRepo}`); // write modern Way for string (String interpulation)
 
 const gameName = new String("Sartaj-sj-com")
 
