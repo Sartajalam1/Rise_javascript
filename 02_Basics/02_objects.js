@@ -15,13 +15,21 @@ const user = {
     lastLoginDay: ["monday","Sunday"]
 
 }
-console.log(user.email);
-console.log(user["email"]);
-console.log(user["Fullname"]);
-console.log(user[mySym])
+// console.log(user.email);
+// console.log(user["email"]);
+// console.log(user["Fullname"]);
+// console.log(user[mySym])
 
 user.email = "Sartaj20@chatgpt.com"
-console.log(user.email);
+Object.freeze(user)                  // freeze function use karne ke baad kuch access nahi hoga user object ka usek badd se stop ho jayega
+user.email = "sartajalam16@gmail.com"
+// console.log(user.email);
+
+user.greeting = function(){
+    console.log("Hello Js Sir");
+    
+}
+
 
 
 
