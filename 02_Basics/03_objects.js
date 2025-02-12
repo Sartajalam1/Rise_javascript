@@ -59,7 +59,7 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
-console.log(snapChat.hasOwnProperty('userName')); // we can check properties in our Objects
+console.log(snapChat.hasOwnProperty('userName')); // we can check properties in this our Objects
 
 
 
